@@ -38,7 +38,7 @@
 import { onMounted, ref } from 'vue';
 import useDate from '../custom-hooks/useDate';
 
-export default {
+export default{
   setup() {
     const { date, getDay, getMonth, createCustomDate } = useDate();
 
@@ -58,8 +58,8 @@ export default {
       month.value = getMonth()
     });
 
-    function AddDate(){
-     customDate.value = createCustomDate(dateobj.value.year, dateobj.value.month, dateobj.value.day)
+    function AddDate() {
+      customDate.value = createCustomDate(dateobj.value.year, dateobj.value.month, dateobj.value.day)
     }
 
 
@@ -69,36 +69,36 @@ export default {
 </script>
 
 <style>
- form{
-   max-width: 350px;
-   background-color: aqua;
-   margin: 10px auto;
-   height: 150px;
-   padding: 10px;
-   text-size-adjust: 1.5em;
-   font-weight: 600;
-   border-radius: 10px;
- }
+form {
+  max-width: 350px;
+  background-color: aqua;
+  margin: 10px auto;
+  height: 150px;
+  padding: 10px;
+  text-size-adjust: 1.5em;
+  font-weight: 600;
+  border-radius: 10px;
+}
 
- form > div{
-   display: flex;
-   margin: 10px auto;
-   justify-content: space-around;
-   text-align: left;
- }
+form>div {
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-around;
+  text-align: left;
+}
 
- input{
-   padding: 5px;
-   width: 60%;
-   border-radius: 5px;
-   border: none;
- }
+input {
+  padding: 5px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
 
- button{
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   border: none;
-   cursor: pointer;
- }
+button {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
 </style>

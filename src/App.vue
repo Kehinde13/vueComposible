@@ -1,15 +1,9 @@
 <template>
-  
   <Date  />
 </template>
 
-<script>
+<script setup>
 import Date from './components/Date.vue';
+  name: 'App'
 
-export default {
-  name: 'App',
-  components: {Date},
- 
-  
-}
 </script>
