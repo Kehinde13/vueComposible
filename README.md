@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/Kehinde13/vueTodoApp)
-- [Live Site URL](https://657368f240c3bb494d950850--fanciful-marshmallow-f558b0.netlify.app/)
+- [Solution URL](https://github.com/Kehinde13/vueComposible)
+- [Live Site URL](https://velvety-muffin-b10277.netlify.app/)
 
 ## My process
 
